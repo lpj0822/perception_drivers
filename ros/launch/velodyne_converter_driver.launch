@@ -1,0 +1,33 @@
+<launch>
+  <arg name="yaml_file1" default="/home/a/geely/param/velodyne/velodyne_converter.yaml" />
+  <arg name="sub_topic_name1" default="/velodyne/scan/center" />
+  <arg name="pub_topic_name1" default="/velodyne/pcd/center" />
+
+  <arg name="yaml_file2" default="/home/a/geely/param/velodyne/velodyne_converter.yaml" />
+  <arg name="sub_topic_name2" default="/velodyne/scan/left" />
+  <arg name="pub_topic_name2" default="/velodyne/pcd/left" />
+
+  <arg name="yaml_file3" default="/home/a/geely/param/velodyne/velodyne_converter.yaml" />
+  <arg name="sub_topic_name3" default="/velodyne/scan/right" />
+  <arg name="pub_topic_name3" default="/velodyne/pcd/right" />
+
+  <node pkg="holomatic" type="velodyne_converter_driver" name="velodyne_converter_driver1" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file1)" />
+	<param name="sub_topic_name" type= "string" value="$(arg sub_topic_name1)" />
+	<param name="pub_topic_name" type= "string" value="$(arg pub_topic_name1)" />
+  </node>   
+
+
+  <node pkg="holomatic" type="velodyne_converter_driver" name="velodyne_converter_driver2" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file2)" />
+	<param name="sub_topic_name" type= "string" value="$(arg sub_topic_name2)" />
+	<param name="pub_topic_name" type= "string" value="$(arg pub_topic_name2)" />
+  </node>  
+
+
+  <node pkg="holomatic" type="velodyne_converter_driver" name="velodyne_converter_driver3" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file3)" />
+	<param name="sub_topic_name" type= "string" value="$(arg sub_topic_name3)" />
+	<param name="pub_topic_name" type= "string" value="$(arg pub_topic_name3)" />
+  </node>    
+</launch>

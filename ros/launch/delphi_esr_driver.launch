@@ -1,0 +1,19 @@
+<launch>
+  <arg name="yaml_file1" default="/home/bolton/holo/xuanyuan/param/delphi_esr/delphi_esr_front.yaml" />
+  <arg name="coord1" default="RADAR_FRONT_CENTER" />
+
+  <arg name="yaml_file2" default="/home/bolton/holo/xuanyuan/param/delphi_esr/delphi_esr_rear.yaml" />
+  <arg name="coord2" default="RADAR_REAR_CENTER" />
+
+  <!-- coord should be RADAR_FRONT_CENTER RADAR_REAR_CENTER -->
+
+  <node pkg="holomatic" type="delphi_esr_driver" name="front_center_delphi_esr_driver" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file1)" />
+	<param name="coord" type= "string" value="$(arg coord1)" />
+  </node>
+
+  <node pkg="holomatic" type="delphi_esr_driver" name="rear_center_delphi_esr_driver" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file2)" />
+  <param name="coord" type= "string" value="$(arg coord2)" />
+  </node>     
+</launch>

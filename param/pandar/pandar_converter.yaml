@@ -1,0 +1,8 @@
+--- 
+calibration_file: /home/a/geely/param/pandar/pandar_correction.yaml
+time_correction_file: /home/a/geely/param/pandar/pandar_time_correction.yaml
+end_azimuth: 360
+grid: true
+max_dis: 120
+min_dis: 0
+start_azimuth: 0

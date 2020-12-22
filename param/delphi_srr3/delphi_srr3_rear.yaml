@@ -1,0 +1,3 @@
+RADAR_LOCATION: 'rear_corner'              # radar location
+HOST_IP: '192.168.1.3'                     # local host ip
+HOST_PORT: 6023                            # local host port

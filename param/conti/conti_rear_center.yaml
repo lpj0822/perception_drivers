@@ -1,0 +1,16 @@
+RADAR_LOCATION: 'rear center'                   # the mounting location for contiradar should be 'front center' 'rear center'
+SOCKET_TYPE: 'udp'             		              # 'tcp' or 'TCP' or 'udp' or 'UDP'
+HOST_IP: '192.168.1.3'          		            # local host ip
+HOST_PORT: '5026'           		                # local host port
+CLIENT_IP: '192.168.1.103'      		            # remote ip
+CLIENT_PORT: '5000'            		              # remote port
+OUTPUT_TYPE: KEEP
+SEND_QUALITY: 1
+SEND_EXTEND: 1
+MAX_DISTANCE: 260
+RADAR_POWER: 0
+RCS_THRESHOLD: 0
+FILTER_INDEX: 0
+FILTER_TYPE: KEEP
+FILTER_MIN_VALUE: 0
+FILTER_MAX_VALUE: 4095

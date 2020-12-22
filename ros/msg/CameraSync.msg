@@ -1,0 +1,3 @@
+uint32 pps_counter
+uint32 sync_sec
+uint32 sync_nsec

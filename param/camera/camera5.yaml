@@ -1,0 +1,9 @@
+coord: CAMERA05
+rows: 1020
+cols: 1920
+trigger_mode: true
+device_name: /dev/v4l/by-id/usb-Leopard_Imaging_AR023_GMSL2_5_50CA09300009080C-video-index0
+pixel_format: 1
+show_image: false
+fps: 20
+use_gpu: true

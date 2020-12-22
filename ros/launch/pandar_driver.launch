@@ -1,0 +1,13 @@
+<launch>
+  <arg name="yaml_file" default="/home/a/geely/param/pandar/pandar.yaml" />
+  <arg name="coord" default="PANDAR" />
+  <arg name="data_port" default="2311" />
+  <arg name="gps_port" default="10110" />
+
+  <node pkg="holomatic" type="pandar_driver" name="pandar_driver" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file)" />
+	<param name="coord" type= "string" value="$(arg coord)" />
+	<param name="data_port" type= "int" value="$(arg data_port)" />
+	<param name="gps_port" type= "int" value="$(arg gps_port)" />
+  </node>     
+</launch>

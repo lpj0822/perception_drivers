@@ -1,0 +1,7 @@
+--- 
+calibration_file: test
+end_azimuth: 360
+grid: true
+max_dis: 120
+min_dis: 1
+start_azimuth: 0

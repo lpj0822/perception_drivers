@@ -1,0 +1,450 @@
+---
+-
+  Laser_id: "1"
+  Vertical: "14.882"
+  Azimuth: "-1.042"
+  TimeOffset1: 15
+  TimeOffset2: 0
+  Index: 30
+-
+  Laser_id: "2"
+  Vertical: "11.032"
+  Azimuth: "-1.042"
+  TimeOffset1: 14
+  TimeOffset2: 0
+  Index: 28
+-
+  Laser_id: "3"
+  Vertical: "8.059"
+  Azimuth: "-1.042"
+  TimeOffset1: 13
+  TimeOffset2: 0
+  Index: 26
+-
+  Laser_id: "4"
+  Vertical: "5.057"
+  Azimuth: "-1.042"
+  TimeOffset1: 12
+  TimeOffset2: 0
+  Index: 24
+-
+  Laser_id: "5"
+  Vertical: "3.040"
+  Azimuth: "-1.042"
+  TimeOffset1: 11
+  TimeOffset2: 0
+  Index: 22
+-
+  Laser_id: "6"
+  Vertical: "2.028"
+  Azimuth: "-1.042"
+  TimeOffset1: 10
+  TimeOffset2: 0
+  Index: 20
+-
+  Laser_id: "7"
+  Vertical: "1.860"
+  Azimuth: "1.042"
+  TimeOffset1: 6
+  TimeOffset2: 0
+  Index: 12
+-
+  Laser_id: "8"
+  Vertical: "1.688"
+  Azimuth: "3.125"
+  TimeOffset1: 15 
+  TimeOffset2: 12
+  Index: 54
+-
+  Laser_id: "9"
+  Vertical: "1.522"
+  Azimuth: "5.208"
+  TimeOffset1: 3
+  TimeOffset2: 0
+  Index: 6
+-
+  Laser_id: "10"
+  Vertical: "1.351"
+  Azimuth: "-5.208"
+  TimeOffset1: 15
+  TimeOffset2: 7
+  Index: 44
+-
+  Laser_id: "11"
+  Vertical: "1.184"
+  Azimuth: "-3.125"
+  TimeOffset1: 15
+  TimeOffset2: 14
+  Index: 58
+-
+  Laser_id: "12"
+  Vertical: "1.013"
+  Azimuth: "-1.042"
+  TimeOffset1: 15
+  TimeOffset2: 16
+  Index: 62
+-
+  Laser_id: "13"
+  Vertical: "0.846"
+  Azimuth: "1.042"
+  TimeOffset1: 15
+  TimeOffset2: 9
+  Index: 48
+-
+  Laser_id: "14"
+  Vertical: "0.675"
+  Azimuth: "3.125"
+  TimeOffset1: 15
+  TimeOffset2: 11
+  Index: 52
+-
+  Laser_id: "15"
+  Vertical: "0.508"
+  Azimuth: "5.208"
+  TimeOffset1: 15 
+  TimeOffset2: 4
+  Index: 38
+-
+  Laser_id: "16"
+  Vertical: "0.337"
+  Azimuth: "-5.208"
+  TimeOffset1: 15
+  TimeOffset2: 6
+  Index: 42
+-
+  Laser_id: "17"
+  Vertical: "0.169"
+  Azimuth: "-3.125"
+  TimeOffset1: 15
+  TimeOffset2: 13
+  Index: 56
+-
+  Laser_id: "18"
+  Vertical: "0.000"
+  Azimuth: "-1.042"
+  TimeOffset1: 15
+  TimeOffset2: 15
+  Index: 60
+-
+  Laser_id: "19"
+  Vertical: "-0.169"
+  Azimuth: "1.042"
+  TimeOffset1: 15 
+  TimeOffset2: 8
+  Index: 46
+-
+  Laser_id: "20"
+  Vertical: "-0.337"
+  Azimuth: "3.125"
+  TimeOffset1: 15 
+  TimeOffset2: 10
+  Index: 50
+-
+  Laser_id: "21"
+  Vertical: "-0.508"
+  Azimuth: "5.208"
+  TimeOffset1: 15 
+  TimeOffset2: 3
+  Index: 36
+-
+  Laser_id: "22"
+  Vertical: "-0.675"
+  Azimuth: "-5.208"
+  TimeOffset1: 15
+  TimeOffset2: 5
+  Index: 40
+-
+  Laser_id: "23"
+  Vertical: "-0.845"
+  Azimuth: "-3.125"
+  TimeOffset1: 15
+  TimeOffset2: 12
+  Index: 55
+-
+  Laser_id: "24"
+  Vertical: "-1.013"
+  Azimuth: "-1.042"
+  TimeOffset1: 15
+  TimeOffset2: 1
+  Index: 32
+-
+  Laser_id: "25"
+  Vertical: "-1.184"
+  Azimuth: "1.042"
+  TimeOffset1: 15
+  TimeOffset2: 7
+  Index: 45
+-
+  Laser_id: "26"
+  Vertical: "-1.351"
+  Azimuth: "3.125"
+  TimeOffset1: 15
+  TimeOffset2: 14
+  Index: 59
+-
+  Laser_id: "27"
+  Vertical: "-1.522"
+  Azimuth: "5.208"
+  TimeOffset1: 15 
+  TimeOffset2: 2
+  Index: 34
+-
+  Laser_id: "28"
+  Vertical: "-1.688"
+  Azimuth: "-5.208"
+  TimeOffset1: 15
+  TimeOffset2: 9
+  Index: 49
+-
+  Laser_id: "29"
+  Vertical: "-1.860"
+  Azimuth: "-3.125"
+  TimeOffset1: 15
+  TimeOffset2: 11
+  Index: 53
+-
+  Laser_id: "30"
+  Vertical: "-2.028"
+  Azimuth: "-1.042"
+  TimeOffset1: 15
+  TimeOffset2: 4
+  Index: 39
+-
+  Laser_id: "31"
+  Vertical: "-2.198"
+  Azimuth: "1.042"
+  TimeOffset1: 15 
+  TimeOffset2: 6
+  Index: 43
+-
+  Laser_id: "32"
+  Vertical: "-2.365"
+  Azimuth: "3.125"
+  TimeOffset1: 15
+  TimeOffset2: 13
+  Index: 57
+-
+  Laser_id: "33"
+  Vertical: "-2.536"
+  Azimuth: "5.208"
+  TimeOffset1: 15
+  TimeOffset2: 1
+  Index: 33
+-
+  Laser_id: "34"
+  Vertical: "-2.700"
+  Azimuth: "-5.208"
+  TimeOffset1: 15
+  TimeOffset2: 8
+  Index: 47
+-
+  Laser_id: "35"
+  Vertical: "-2.873"
+  Azimuth: "-3.125"
+  TimeOffset1: 15
+  TimeOffset2: 10
+  Index: 51
+-
+  Laser_id: "36"
+  Vertical: "-3.040"
+  Azimuth: "-1.042"
+  TimeOffset1: 15
+  TimeOffset2: 3
+  Index: 37
+-
+  Laser_id: "37"
+  Vertical: "-3.210"
+  Azimuth: "1.042"
+  TimeOffset1: 15
+  TimeOffset2: 5
+  Index: 41
+-
+  Laser_id: "38"
+  Vertical: "-3.375"
+  Azimuth: "3.125"
+  TimeOffset1: 15
+  TimeOffset2: 15
+  Index: 61
+-
+  Laser_id: "39"
+  Vertical: "-3.548"
+  Azimuth: "5.208"
+  TimeOffset1: 2 
+  TimeOffset2: 0
+  Index: 4
+-
+  Laser_id: "40"
+  Vertical: "-3.712"
+  Azimuth: "-5.208"
+  TimeOffset1: 15
+  TimeOffset2: 16
+  Index: 63
+-
+  Laser_id: "41"
+  Vertical: "-3.884"
+  Azimuth: "-3.125"  
+  TimeOffset1: 9
+  TimeOffset2: 0
+  Index: 18
+-
+  Laser_id: "42"
+  Vertical: "-4.050"
+  Azimuth: "-1.042"  
+  TimeOffset1: 15
+  TimeOffset2: 2
+  Index: 35
+-
+  Laser_id: "43"
+  Vertical: "-4.221"
+  Azimuth: "1.042"  
+  TimeOffset1: 5
+  TimeOffset2: 0
+  Index: 10
+-
+  Laser_id: "44"
+  Vertical: "-4.385"
+  Azimuth: "3.125"  
+  TimeOffset1: 15
+  TimeOffset2: 0
+  Index: 31
+-
+  Laser_id: "45"
+  Vertical: "-4.558"
+  Azimuth: "5.208"  
+  TimeOffset1: 1
+  TimeOffset2: 0
+  Index: 2
+-
+  Laser_id: "46"
+  Vertical: "-4.720"
+  Azimuth: "-5.208"  
+  TimeOffset1: 14
+  TimeOffset2: 0
+  Index: 29
+-
+  Laser_id: "47"
+  Vertical: "-4.892"
+  Azimuth: "-3.125"  
+  TimeOffset1: 8
+  TimeOffset2: 0
+  Index: 16
+-
+  Laser_id: "48"
+  Vertical: "-5.057"
+  Azimuth: "-1.042"  
+  TimeOffset1: 11
+  TimeOffset2: 0
+  Index: 23
+-
+  Laser_id: "49"
+  Vertical: "-5.229"
+  Azimuth: "1.042"  
+  TimeOffset1: 4
+  TimeOffset2: 0
+  Index: 8
+-
+  Laser_id: "50"
+  Vertical: "-5.391"
+  Azimuth: "3.125"  
+  TimeOffset1: 12
+  TimeOffset2: 0
+  Index: 25
+-
+  Laser_id: "51"
+  Vertical: "-5.565"
+  Azimuth: "5.208"  
+  TimeOffset1: 0
+  TimeOffset2: 0
+  Index: 0
+-
+  Laser_id: "52"
+  Vertical: "-5.726"
+  Azimuth: "-5.208"  
+  TimeOffset1: 13
+  TimeOffset2: 0
+  Index: 27
+-
+  Laser_id: "53"
+  Vertical: "-5.898"
+  Azimuth: "-3.125"  
+  TimeOffset1: 7
+  TimeOffset2: 0
+  Index: 14
+-
+  Laser_id: "54"
+  Vertical: "-6.061"
+  Azimuth: "-1.042"  
+  TimeOffset1: 10
+  TimeOffset2: 0
+  Index: 21
+-
+  Laser_id: "55"
+  Vertical: "-7.063"
+  Azimuth: "-1.042"  
+  TimeOffset1: 3
+  TimeOffset2: 0
+  Index: 7
+-
+  Laser_id: "56"
+  Vertical: "-8.059"
+  Azimuth: "-1.042"  
+  TimeOffset1: 6
+  TimeOffset2: 0
+  Index: 13
+-
+  Laser_id: "57"
+  Vertical: "-9.060"
+  Azimuth: "-1.042"  
+  TimeOffset1: 2
+  TimeOffset2: 0
+  Index: 5
+-
+  Laser_id: "58"
+  Vertical: "-9.885"
+  Azimuth: "-1.042"  
+  TimeOffset1: 9
+  TimeOffset2: 0
+  Index: 19
+-
+  Laser_id: "59"
+  Vertical: "-11.032"
+  Azimuth: "-1.042"  
+  TimeOffset1: 5
+  TimeOffset2: 0
+  Index: 11
+-
+  Laser_id: "60"
+  Vertical: "-12.006"
+  Azimuth: "-1.042"  
+  TimeOffset1: 1
+  TimeOffset2: 0
+  Index: 3
+-
+  Laser_id: "61"
+  Vertical: "-12.974"
+  Azimuth: "-1.042"  
+  TimeOffset1: 0
+  TimeOffset2: 0
+  Index: 1
+-
+  Laser_id: "62"
+  Vertical: "-13.930"
+  Azimuth: "-1.042"  
+  TimeOffset1: 8
+  TimeOffset2: 0
+  Index: 17
+-
+  Laser_id: "63"
+  Vertical: "-18.889"
+  Azimuth: "-1.042"  
+  TimeOffset1: 4
+  TimeOffset2: 0
+  Index: 9
+-
+  Laser_id: "64"
+  Vertical: "-24.897"
+  Azimuth: "-1.042"  
+  TimeOffset1: 7
+  TimeOffset2: 0
+  Index: 15       
+

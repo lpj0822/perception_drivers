@@ -1,0 +1,62 @@
+<launch>
+  <arg name="yaml_file1" default="/home/a/geely/param/velodyne/velodyne_front.yaml" />
+  <arg name="coord1" default="VLP_FRONT_CENTER" />
+  <arg name="data_port1" default="2368" />
+  <arg name="gps_port1" default="8308" />
+
+  <arg name="yaml_file2" default="/home/a/geely/param/velodyne/velodyne_left.yaml" />
+  <arg name="coord2" default="VLP_FRONT_LEFT" />
+  <arg name="data_port2" default="2369" />
+  <arg name="gps_port2" default="8309" />
+
+  <arg name="yaml_file3" default="/home/a/geely/param/velodyne/velodyne_right.yaml" />
+  <arg name="coord3" default="VLP_FRONT_RIGHT" />
+  <arg name="data_port3" default="2310" />
+  <arg name="gps_port3" default="8310" />
+
+  <arg name="yaml_file4" default="/home/a/geely/param/velodyne/velodyne_rear.yaml" />
+  <arg name="coord4" default="VLP_REAR_CENTER" />
+  <arg name="data_port4" default="2311" />
+  <arg name="gps_port4" default="8311" />
+
+  <!-- coord should be VLP_FRONT_CENTER VLP_FRONT_LEFT VLP_FRONT_RIGHT VLP_REAR_CENTER -->
+
+  <node pkg="holomatic" type="velodyne_driver" name="velodyne_driver_front" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file1)" />
+	<param name="coord" type= "string" value="$(arg coord1)" />
+	<param name="data_port" type= "int" value="$(arg data_port1)" />
+	<param name="gps_port" type= "int" value="$(arg gps_port1)" />
+  </node>
+
+
+  <node pkg="holomatic" type="velodyne_driver" name="velodyne_driver_left" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file2)" />
+	<param name="coord" type= "string" value="$(arg coord2)" />
+	<param name="data_port" type= "int" value="$(arg data_port2)" />
+	<param name="gps_port" type= "int" value="$(arg gps_port2)" />
+  </node>
+
+ <node pkg="holomatic" type="velodyne_driver" name="velodyne_driver_right" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file3)" />
+	<param name="coord" type= "string" value="$(arg coord3)" />
+	<param name="data_port" type= "int" value="$(arg data_port3)" />
+	<param name="gps_port" type= "int" value="$(arg gps_port3)" />
+  </node>
+
+<!--
+  <node pkg="holomatic" type="velodyne_driver" name="velodyne_driver2" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file2)" />
+  <param name="coord" type= "string" value="$(arg coord2)" />
+  <param name="data_port" type= "int" value="$(arg data_port2)" />
+  <param name="gps_port" type= "int" value="$(arg gps_port2)" />
+  </node>
+
+
+  <node pkg="holomatic" type="velodyne_driver" name="velodyne_driver4" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file4)" />
+  <param name="coord" type= "string" value="$(arg coord4)" />
+  <param name="data_port" type= "int" value="$(arg data_port4)" />
+  <param name="gps_port" type= "int" value="$(arg gps_port4)" />
+  </node>
+-->        
+</launch>

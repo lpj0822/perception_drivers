@@ -1,0 +1,11 @@
+<launch>
+  <arg name="yaml_file" default="/home/a/geely/param/pandar/pandar_converter.yaml" />
+  <arg name="sub_topic_name" default="/pandar/scan" />
+  <arg name="pub_topic_name" default="/pandar/pcd" />
+
+  <node pkg="holomatic" type="pandar_converter_driver" name="pandar_converter_driver" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file)" />
+	<param name="sub_topic_name" type= "string" value="$(arg sub_topic_name)" />
+	<param name="pub_topic_name" type= "string" value="$(arg pub_topic_name)" />
+  </node>     
+</launch>

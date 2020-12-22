@@ -1,0 +1,19 @@
+<launch>
+  <arg name="yaml_file1" default="/home/bolton/holo/xuanyuan/param/delphi_srr3/delphi_srr3_front.yaml" />
+  <arg name="coord1" default="RADAR_FRONT_CORNER" />
+
+  <arg name="yaml_file2" default="/home/bolton/holo/xuanyuan/param/delphi_srr3/delphi_srr3_rear.yaml" />
+  <arg name="coord2" default="RADAR_REAR_CORNER" />
+
+  <!-- coord should be RADAR_FRONT_CORNER RADAR_REAR_CORNER -->
+
+  <node pkg="holomatic" type="delphi_srr3_driver" name="front_corner_delphi_srr3_driver" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file1)" />
+	<param name="coord" type= "string" value="$(arg coord1)" />
+  </node>
+
+  <node pkg="holomatic" type="delphi_srr3_driver" name="rear_corner_delphi_srr3_driver" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file2)" />
+  <param name="coord" type= "string" value="$(arg coord2)" />
+  </node>     
+</launch>

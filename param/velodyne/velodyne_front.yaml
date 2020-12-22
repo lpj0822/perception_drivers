@@ -1,0 +1,4 @@
+--- 
+model: VLP16
+rpm: 600
+use_gps: true

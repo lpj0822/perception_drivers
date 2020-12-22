@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprotobuf_c.a  CMakeFiles/protobuf_c.dir/src/pb_common.c.o CMakeFiles/protobuf_c.dir/src/pb_encode.c.o CMakeFiles/protobuf_c.dir/src/pb_decode.c.o
+/usr/bin/ranlib libprotobuf_c.a

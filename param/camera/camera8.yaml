@@ -1,0 +1,9 @@
+coord: UNDEFINED
+rows: 1020
+cols: 1920
+trigger_mode: true
+device_name: /dev/video1
+pixel_format: 1
+show_image: false
+fps: 20
+use_gpu: false

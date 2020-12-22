@@ -1,0 +1,19 @@
+<launch>
+  <arg name="dev" default="/dev/ttyS0" />
+  <arg name="baud_rate" default="460800" />
+  <arg name="coord" default="NOVATEL" />
+  <arg name="com_type" default="serial" />
+  <arg name="ip" default="192.168.1.5" />
+  <arg name="port" default="3003" />
+  <arg name="command" default="log inspvaxb ontime 0.02" />
+
+  <node pkg="holomatic" type="novatel_driver" name="novatel_driver" output="screen" required="true">
+	<param name="dev" type= "string" value="$(arg dev)" />
+	<param name="baud_rate" type= "int" value="$(arg baud_rate)" />
+	<param name="coord" type= "string" value="$(arg coord)" />
+	<param name="com_type" type= "string" value="$(arg com_type)" />
+	<param name="ip" type= "string" value="$(arg ip)" />
+	<param name="port" type= "int" value="$(arg port)" />
+	<param name="command" type= "string" value="$(arg command)" />
+  </node>
+</launch>

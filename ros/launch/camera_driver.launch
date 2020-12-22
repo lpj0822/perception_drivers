@@ -1,0 +1,145 @@
+<launch>
+
+  <arg name="yaml_file1" default="/home/a/geely/param/camera/camera1.yaml" />
+  <arg name="coord1" default="CAMERA_FRONT_CENTER" />
+  <arg name="pixel_format1" default="1" />
+  
+  <arg name="yaml_file2" default="/home/a/geely/param/camera/camera2.yaml" />
+  <arg name="coord2" default="CAMERA_FRONT_LEFT" />
+  <arg name="pixel_format2" default="1" />
+
+
+  <arg name="yaml_file3" default="/home/a/geely/param/camera/camera3.yaml" />
+  <arg name="coord3" default="CAMERA_FRONT_RIGHT" />
+  <arg name="pixel_format3" default="1" />
+
+  <arg name="yaml_file4" default="/home/a/geely/param/camera/camera4.yaml" />
+  <arg name="coord4" default="CAMERA_REAR_CENTER" />
+  <arg name="pixel_format4" default="1" />
+
+  <arg name="yaml_file5" default="/home/a/geely/param/camera/camera5.yaml" />
+  <arg name="coord5" default="CAMERA_FRONT_LEFT_01" />
+  <arg name="pixel_format5" default="1" />
+<!--
+  <arg name="yaml_file6" default="/home/a/geely/param/camera/camera6.yaml" />
+  <arg name="coord6" default="CAMERA_FRONT_LEFT" />
+  <arg name="pixel_format6" default="1" />
+
+  <arg name="yaml_file7" default="/home/a/geely/param/camera/camera7.yaml" />
+  <arg name="coord7" default="CAMERA_FRONT_LEFT" />
+  <arg name="pixel_format7" default="1" />
+
+  <arg name="yaml_file8" default="/home/a/geely/param/camera/camera8.yaml" />
+  <arg name="coord8" default="CAMERA_FRONT_LEFT" />
+  <arg name="pixel_format8" default="1" />
+
+  <arg name="yaml_file9" default="/home/a/geely/param/camera/camera9.yaml" />
+  <arg name="coord9" default="CAMERA_FRONT_LEFT" />
+  <arg name="pixel_format9" default="1" />
+
+  <arg name="yaml_file10" default="/home/a/geely/param/camera/camera10.yaml" />
+  <arg name="coord10" default="CAMERA_FRONT_LEFT" />
+  <arg name="pixel_format10" default="1" />
+
+  <arg name="yaml_file11" default="/home/a/geely/param/camera/camera11.yaml" />
+  <arg name="coord11" default="CAMERA_FRONT_LEFT" />
+  <arg name="pixel_format11" default="1" />
+
+  <arg name="yaml_file12" default="/home/a/geely/param/camera/camera12.yaml" />
+  <arg name="coord12" default="CAMERA_FRONT_LEFT" />
+  <arg name="pixel_format12" default="1" />
+-->
+
+  <node pkg="holomatic" type="camera_driver" name="camera_driver1" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file1)" />
+  <param name="coord" type= "string" value="$(arg coord1)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format1)" />
+  </node>
+ 
+  <node pkg="holomatic" type="camera_driver" name="camera_driver2" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file2)" />
+  <param name="coord" type= "string" value="$(arg coord2)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format2)" />
+  </node>
+
+ 
+
+  <node pkg="holomatic" type="camera_driver" name="camera_driver3" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file3)" />
+  <param name="coord" type= "string" value="$(arg coord3)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format3)" />
+  </node>
+  
+  <node pkg="holomatic" type="camera_driver" name="camera_driver4" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file4)" />
+  <param name="coord" type= "string" value="$(arg coord4)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format4)" />
+  </node>
+  
+  <node pkg="holomatic" type="camera_driver" name="camera_driver5" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file5)" />
+  <param name="coord" type= "string" value="$(arg coord5)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format5)" />
+  </node>
+
+
+  
+
+
+ <!--  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  <node pkg="holomatic" type="camera_driver" name="camera_driver6" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file6)" />
+  <param name="coord" type= "string" value="$(arg coord6)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format6)" />
+  </node>
+  
+  <node pkg="holomatic" type="camera_driver" name="camera_driver7" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file7)" />
+  <param name="coord" type= "string" value="$(arg coord7)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format7)" />
+  </node>
+  
+  <node pkg="holomatic" type="camera_driver" name="camera_driver8" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file8)" />
+  <param name="coord" type= "string" value="$(arg coord8)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format8)" />
+  </node>
+  
+  <node pkg="holomatic" type="camera_driver" name="camera_driver9" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file9)" />
+  <param name="coord" type= "string" value="$(arg coord9)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format9)" />
+  </node>
+  
+  <node pkg="holomatic" type="camera_driver" name="camera_driver10" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file10)" />
+  <param name="coord" type= "string" value="$(arg coord10)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format10)" />
+  </node>
+  
+  <node pkg="holomatic" type="camera_driver" name="camera_driver11" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file11)" />
+  <param name="coord" type= "string" value="$(arg coord11)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format11)" />
+  </node>
+  
+  <node pkg="holomatic" type="camera_driver" name="camera_driver12" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file12)" />
+  <param name="coord" type= "string" value="$(arg coord12)" />
+  <param name="pixel_format" type= "int" value="$(arg pixel_format12)" />
+  </node>
+-->  
+</launch>

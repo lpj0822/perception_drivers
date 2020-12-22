@@ -1,0 +1,25 @@
+<launch>
+  <arg name="yaml_file1" default="/home/a/geely/param/conti/conti_front_center.yaml" />
+  <arg name="coord1" default="RADAR_FRONT_CENTER" />
+
+  <arg name="yaml_file2" default="/home/a/geely/param/conti/conti_rear_center.yaml" />
+  <arg name="coord2" default="RADAR_REAR_CENTER" />
+
+
+  <!-- coord should be RADAR_FRONT_CENTER RADAR_REAR_CENTER -->
+
+  <node pkg="holomatic" type="contiradar_driver" name="front_center_contiradar_driver" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file1)" />
+	<param name="coord" type= "string" value="$(arg coord1)" />
+  </node>
+
+ <node pkg="holomatic" type="contiradar_driver" name="rear_center_contiradar_driver" output="screen" required="true">
+  <param name="yaml_file" type= "string" value="$(arg yaml_file2)" />
+  <param name="coord" type= "string" value="$(arg coord2)" />
+  </node> 
+
+
+<!--
+-->  
+     
+</launch>

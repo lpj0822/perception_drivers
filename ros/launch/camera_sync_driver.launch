@@ -1,0 +1,7 @@
+<launch>
+  <arg name="yaml_file" default="/home/a/geely/param/camera/camera_sync.yaml" />
+
+  <node pkg="holomatic" type="camera_sync_driver" name="camera_sync_driver" output="screen" required="true">
+	<param name="yaml_file" type= "string" value="$(arg yaml_file)" />
+  </node>
+</launch>
